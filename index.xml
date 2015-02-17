@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>哎，蘑菇</title>
-    <link>http://localhost:1313/</link>
+    <link>http://imogu.us/</link>
     <description>Recent content on 哎，蘑菇</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -10,14 +10,14 @@
     
     <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Wed, 18 Feb 2015 00:38:59 CST</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://imogu.us/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Setup Hogo on Github How to</title>
-      <link>http://localhost:1313/2015/02/how-to-setup-hugo-github/</link>
+      <link>http://imogu.us/2015/02/how-to-setup-hugo-github/</link>
       <pubDate>Wed, 18 Feb 2015 00:38:59 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/how-to-setup-hugo-github/</guid>
+      <guid>http://imogu.us/2015/02/how-to-setup-hugo-github/</guid>
       <description>
 
 &lt;p&gt;Hugo是一个轻量级的静态网站生成系统，可以帮助你很迅速的生成一个简单的博客网站，当然如果你有心，还可以让他更强大，下面就来简单记录下在Github上建立Hugo站的方法。&lt;/p&gt;
@@ -69,6 +69,20 @@
 &lt;h2 id=&#34;入驻github:4901d8f2e742100b5e9437c7346b5caf&#34;&gt;入驻Github&lt;/h2&gt;
 
 &lt;p&gt;思路很简单，建立两个repo，一个用来储存Blog的Hugo源文件，包含md，模版等，另一个repo则只包含Hugo生成的Public目录，即静态网页内容，而我们访问的就是这个静态网页的repo。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://imogu.us/about/</link>
+      <pubDate>Wed, 18 Feb 2015 00:36:23 CST</pubDate>
+      
+      <guid>http://imogu.us/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Headline&lt;/h2&gt;
+
+&lt;p&gt;About Me&lt;/p&gt;
 </description>
     </item>
     
