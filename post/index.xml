@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 哎，蘑菇</title>
-    <link>http://imogu.us/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 哎，蘑菇</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -10,14 +10,14 @@
     
     <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
     <lastBuildDate>Wed, 18 Feb 2015 00:38:59 CST</lastBuildDate>
-    <atom:link href="http://imogu.us/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Setup Hogo on Github How to</title>
-      <link>http://imogu.us/2015/02/how-to-setup-hugo-github/</link>
+      <link>http://localhost:1313/2015/02/how-to-setup-hugo-github/</link>
       <pubDate>Wed, 18 Feb 2015 00:38:59 CST</pubDate>
       
-      <guid>http://imogu.us/2015/02/how-to-setup-hugo-github/</guid>
+      <guid>http://localhost:1313/2015/02/how-to-setup-hugo-github/</guid>
       <description>
 
 &lt;p&gt;Hugo是一个轻量级的静态网站生成系统，可以帮助你很迅速的生成一个简单的博客网站，当然如果你有心，还可以让他更强大，下面就来简单记录下在Github上建立Hugo站的方法。&lt;/p&gt;
