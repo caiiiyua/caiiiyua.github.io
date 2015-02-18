@@ -1,3 +1,9 @@
 .post-category-howto {
   background-color: #118833;
 }
+.post-category-hugo, .post-category-development {
+  background-color: #880044;
+}
+.post-category-life {
+  background-color: #FFAA44;
+}
