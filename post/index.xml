@@ -8,7 +8,7 @@
     
     
     
-    <copyright>Copyright (c) 2008 - 2014, Steve Francia; all rights reserved.</copyright>
+    <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
     <lastBuildDate>Wed, 18 Feb 2015 00:38:59 CST</lastBuildDate>
     <atom:link href="http://imogu.us/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,23 +24,23 @@
 
 &lt;h2 id=&#34;安装hugo:4901d8f2e742100b5e9437c7346b5caf&#34;&gt;安装Hugo&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://gohugo.io/&amp;gt;&#34;&gt;Hugo&lt;/a&gt;的安装很简单，按照官网介绍即可，在Mac上可以选择source安装，或者brew。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gohugo.io/&#34; title=&#34;Hugo&#34;&gt;Hugo&lt;/a&gt;的安装很简单，按照官网介绍即可，在Mac上可以选择source安装，或者brew。&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{  brew install hugo }}
+&lt;pre&gt;&lt;code&gt;brew install hugo
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;需要注意的是，Hugo是基于Go开发的，因此需要Go的环境来支持，如何安装&lt;a href=&#34;https://golang.org/&amp;gt;&#34;&gt;Go&lt;/a&gt; 请猛戳［安装Go］&lt;/p&gt;
+&lt;p&gt;需要注意的是，Hugo是基于Go开发的，因此需要Go的环境来支持，如何安装&lt;a href=&#34;https://golang.org/&#34; title=&#34;Go Language&#34;&gt;Go&lt;/a&gt; 请猛戳&lt;a href=&#34;https://golang.org/doc/install/&#34;&gt;安装Go&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;使用hugo建立你的博客:4901d8f2e742100b5e9437c7346b5caf&#34;&gt;使用Hugo建立你的博客&lt;/h2&gt;
 
 &lt;p&gt;Hugo建立网站只需要一个命令：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{  hugo new site myblog }}
+&lt;pre&gt;&lt;code&gt;hugo new site myblog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;建立完成后就可以马上在本地将Server运行起来查看效果：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ hugo server -w -t hyde }}
+&lt;pre&gt;&lt;code&gt;hugo server -w -t hyde
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;这里是使用了hyde这个主题。&lt;/p&gt;
@@ -49,15 +49,15 @@
 
 &lt;p&gt;可以通过下面的命令来创建文章：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{{ hugo new post/fist.md }}
+&lt;pre&gt;&lt;code&gt;hugo new post/fist.md
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;打开并使用markdone语法来编写文章就可以啦：&lt;/p&gt;
+&lt;p&gt;打开并使用markdown语法来编写文章就可以啦：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt; +++
  date = &amp;quot;2015-02-18T00:38:59+08:00&amp;quot;
- title = &amp;quot;Setup Hogo on Github How to&amp;quot; 
- tag = [&amp;quot;hugo&amp;quot;, &amp;quot;howto&amp;quot;] 
+ title = &amp;quot;Setup Hogo on Github How to&amp;quot;
+ tag = [&amp;quot;hugo&amp;quot;, &amp;quot;howto&amp;quot;]
  categories = [&amp;quot;howto&amp;quot;]
  +++
 

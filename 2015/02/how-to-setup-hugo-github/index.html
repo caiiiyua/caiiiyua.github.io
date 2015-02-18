@@ -54,6 +54,8 @@
   
 
   
+    <link rel="stylesheet" type="text/css" href="/css/my-categories.css">
+  
 
   
 </head>
@@ -67,7 +69,7 @@
     
 
     <h1 class="brand-title">哎，蘑菇</h1>
-    <h2 class="brand-tagline">这是什么东西呀?</h2>
+    <h2 class="brand-tagline">这是什么呀?</h2>
 
     <nav class="nav">
       <ul class="nav-list">
@@ -141,6 +143,8 @@
 				
 					<a class="post-category post-category-hugo" href="http://imogu.us/categories/hugo">Hugo</a>
 				
+					<a class="post-category post-category-development" href="http://imogu.us/categories/development">Development</a>
+				
 				</div>
 			
 
@@ -154,23 +158,23 @@
 
 <h2 id="安装hugo:4901d8f2e742100b5e9437c7346b5caf">安装Hugo</h2>
 
-<p><a href="http://gohugo.io/&gt;">Hugo</a>的安装很简单，按照官网介绍即可，在Mac上可以选择source安装，或者brew。</p>
+<p><a href="http://gohugo.io/" title="Hugo">Hugo</a>的安装很简单，按照官网介绍即可，在Mac上可以选择source安装，或者brew。</p>
 
-<pre><code>{{  brew install hugo }}
+<pre><code>brew install hugo
 </code></pre>
 
-<p>需要注意的是，Hugo是基于Go开发的，因此需要Go的环境来支持，如何安装<a href="https://golang.org/&gt;">Go</a> 请猛戳［安装Go］</p>
+<p>需要注意的是，Hugo是基于Go开发的，因此需要Go的环境来支持，如何安装<a href="https://golang.org/" title="Go Language">Go</a> 请猛戳<a href="https://golang.org/doc/install/">安装Go</a></p>
 
 <h2 id="使用hugo建立你的博客:4901d8f2e742100b5e9437c7346b5caf">使用Hugo建立你的博客</h2>
 
 <p>Hugo建立网站只需要一个命令：</p>
 
-<pre><code>{{  hugo new site myblog }}
+<pre><code>hugo new site myblog
 </code></pre>
 
 <p>建立完成后就可以马上在本地将Server运行起来查看效果：</p>
 
-<pre><code>{{ hugo server -w -t hyde }}
+<pre><code>hugo server -w -t hyde
 </code></pre>
 
 <p>这里是使用了hyde这个主题。</p>
@@ -179,15 +183,15 @@
 
 <p>可以通过下面的命令来创建文章：</p>
 
-<pre><code>{{ hugo new post/fist.md }}
+<pre><code>hugo new post/fist.md
 </code></pre>
 
-<p>打开并使用markdone语法来编写文章就可以啦：</p>
+<p>打开并使用markdown语法来编写文章就可以啦：</p>
 
 <pre><code> +++
  date = &quot;2015-02-18T00:38:59+08:00&quot;
- title = &quot;Setup Hogo on Github How to&quot; 
- tag = [&quot;hugo&quot;, &quot;howto&quot;] 
+ title = &quot;Setup Hogo on Github How to&quot;
+ tag = [&quot;hugo&quot;, &quot;howto&quot;]
  categories = [&quot;howto&quot;]
  +++
 
