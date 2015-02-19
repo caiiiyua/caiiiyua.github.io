@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <title>
-    Setup Hugo on Github How to // 哎，蘑菇
+    Go by Example - 常量 // 哎，蘑菇
   </title>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -13,13 +13,13 @@
 
 <meta name="description" content="">
 <meta name="keywords" content="">
-<meta name="author" content="nehe">
+<meta name="author" content="">
 
-  <meta property="og:title" content="Setup Hugo on Github How to" />
+  <meta property="og:title" content="Go by Example - 常量" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:url" content="http://imogu.us/2015/02/how-to-setup-hugo-github/" />
+<meta property="og:url" content="http://imogu.us/2015/02/gobyexample-constants/" />
 
 
   
@@ -96,42 +96,20 @@
 
 		
 			
-		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
-				<small class="toc-label">Contents</small>
-		   	 	<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#安装hugo:4901d8f2e742100b5e9437c7346b5caf">安装Hugo</a></li>
-<li><a href="#使用hugo建立你的博客:4901d8f2e742100b5e9437c7346b5caf">使用Hugo建立你的博客</a></li>
-<li><a href="#创建你的第一篇文章:4901d8f2e742100b5e9437c7346b5caf">创建你的第一篇文章</a></li>
-<li><a href="#入驻github:4901d8f2e742100b5e9437c7346b5caf">入驻Github</a></li>
-</ul></li>
-</ul>
-</nav>
-		    </div>
-		    
 	    
   		<section class="post">
             <h1 class="post-title">
-              <a href="/2015/02/how-to-setup-hugo-github/">Setup Hugo on Github How to</a>
+              <a href="/2015/02/gobyexample-constants/">Go by Example - 常量</a>
             </h1>
             <h3 class="post-subtitle">
             	
             </h3>
             
             	<span class="post-date">
-                	<span class="post-date-day"><sup>18</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Feb</span> <span class="post-date-year">2015</span>
+                	<span class="post-date-day"><sup>20</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Feb</span> <span class="post-date-year">2015</span>
             	</span>
             	
             
-            	
-            		<span class="post-author-single">By <a class="post-author"  target="">nehe</a></span>
-            		
-
-
-
-
             	
             
 
@@ -139,11 +117,11 @@
 			
 				<div class="post-categories">
 				
-					<a class="post-category post-category-howto" href="http://imogu.us/categories/howto">howto</a>
-				
-					<a class="post-category post-category-hugo" href="http://imogu.us/categories/hugo">Hugo</a>
-				
 					<a class="post-category post-category-development" href="http://imogu.us/categories/development">Development</a>
+				
+					<a class="post-category post-category-go" href="http://imogu.us/categories/go">Go</a>
+				
+					<a class="post-category post-category-%E7%9E%8E%E6%83%B3" href="http://imogu.us/categories/%E7%9E%8E%E6%83%B3">瞎想</a>
 				
 				</div>
 			
@@ -152,77 +130,72 @@
 
 			
 
-            
+            <p>Go 支持的常量类型有字符型，string， boolean以及数字型。</p>
 
-<p>Hugo是一个轻量级的静态网站生成系统，可以帮助你很迅速的生成一个简单的博客网站，当然如果你有心，还可以让他更强大，下面就来简单记录下在Github上建立Hugo站的方法。</p>
+<p>在代码中通过关键字*const*来声明常量。
+const表达式可以出现在任何可以通过var表达式声明变量的地方。</p>
 
-<h2 id="安装hugo:4901d8f2e742100b5e9437c7346b5caf">安装Hugo</h2>
+<p>如下面的例子：</p>
 
-<p><a href="http://gohugo.io/" title="Hugo">Hugo</a>的安装很简单，按照官网介绍即可，在Mac上可以选择source安装，或者brew。</p>
+<pre><code>package main
 
-<pre><code>brew install hugo
+import (
+	&quot;fmt&quot;
+	&quot;math&quot;
+)
+
+const s string = &quot;constant&quot;
+
+func main() {
+	fmt.Println(s)
+
+	const n = 500000000
+	const d = 3e20 / n
+	fmt.Println(d)
+
+	fmt.Println(int64(d))
+	fmt.Println(math.Sin(n))
+}
 </code></pre>
 
-<p>需要注意的是，Hugo是基于Go开发的，因此需要Go的环境来支持，如何安装<a href="https://golang.org/" title="Go Language">Go</a> 请猛戳<a href="https://golang.org/doc/install/">安装Go</a></p>
+<p>输出如下：</p>
 
-<h2 id="使用hugo建立你的博客:4901d8f2e742100b5e9437c7346b5caf">使用Hugo建立你的博客</h2>
-
-<p>Hugo建立网站只需要一个命令：</p>
-
-<pre><code>hugo new site myblog
+<pre><code>$ go run constants.go
+constant
+6e+11
+600000000000
+-0.28470407323754404
 </code></pre>
 
-<p>建立完成后就可以马上在本地将Server运行起来查看效果：</p>
+<p>下节例子： [for]</p>
 
-<pre><code>hugo server -w -t hyde
-</code></pre>
-
-<p>这里是使用了hyde这个主题。</p>
-
-<h2 id="创建你的第一篇文章:4901d8f2e742100b5e9437c7346b5caf">创建你的第一篇文章</h2>
-
-<p>可以通过下面的命令来创建文章：</p>
-
-<pre><code>hugo new post/fist.md
-</code></pre>
-
-<p>打开并使用markdown语法来编写文章就可以啦：</p>
-
-<pre><code> +++
- date = &quot;2015-02-18T00:38:59+08:00&quot;
- title = &quot;Setup Hogo on Github How to&quot;
- tag = [&quot;hugo&quot;, &quot;howto&quot;]
- categories = [&quot;howto&quot;]
- +++
-
- The First
-
- Hello ....
-</code></pre>
-
-<h2 id="入驻github:4901d8f2e742100b5e9437c7346b5caf">入驻Github</h2>
-
-<p>思路很简单，建立两个repo，一个用来储存Blog的Hugo源文件，包含md，模版等，另一个repo则只包含Hugo生成的Public目录，即静态网页内容，而我们访问的就是这个静态网页的repo。</p>
+<p>[for]:</p>
 
 	
 			
 
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-golang" href="http://imogu.us/tags/golang">golang</a>,
+	                
+	                <a class="post-tag post-tag-development" href="http://imogu.us/tags/development">Development</a>,
+	                
+	                <a class="post-tag post-tag-%E7%9E%8E%E6%83%B3" href="http://imogu.us/tags/%E7%9E%8E%E6%83%B3">瞎想</a>,
+	                
+				</div>
 			
 
 			
 				<div class="paging">
 					<span class="paging-label">More Reading</span>
 					
-					<div class="paging-newer">
-						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
-						<a class="paging-link" href="/2015/02/gobyexample-helloworld/">Go by Example - Hello World</a>
-		            </div>
-		            
 
 					
 					<div class="paging-older">
 						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
-			            <a class="paging-link" href="/about/">about</a>
+			            <a class="paging-link" href="/2015/02/gobyexample-variables/">Go by Example - 变量</a>
 		            </div>
 		            
 	            </div>

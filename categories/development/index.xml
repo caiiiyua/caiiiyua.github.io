@@ -9,8 +9,206 @@
     
     
     <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 18 Feb 2015 00:38:59 CST</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2015 01:38:38 CST</lastBuildDate>
     <atom:link href="http://imogu.us/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Go by Example - 常量</title>
+      <link>http://imogu.us/2015/02/gobyexample-constants/</link>
+      <pubDate>Fri, 20 Feb 2015 01:38:38 CST</pubDate>
+      
+      <guid>http://imogu.us/2015/02/gobyexample-constants/</guid>
+      <description>&lt;p&gt;Go 支持的常量类型有字符型，string， boolean以及数字型。&lt;/p&gt;
+
+&lt;p&gt;在代码中通过关键字*const*来声明常量。
+const表达式可以出现在任何可以通过var表达式声明变量的地方。&lt;/p&gt;
+
+&lt;p&gt;如下面的例子：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import (
+	&amp;quot;fmt&amp;quot;
+	&amp;quot;math&amp;quot;
+)
+
+const s string = &amp;quot;constant&amp;quot;
+
+func main() {
+	fmt.Println(s)
+
+	const n = 500000000
+	const d = 3e20 / n
+	fmt.Println(d)
+
+	fmt.Println(int64(d))
+	fmt.Println(math.Sin(n))
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;输出如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go run constants.go
+constant
+6e+11
+600000000000
+-0.28470407323754404
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下节例子： [for]&lt;/p&gt;
+
+&lt;p&gt;[for]:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go by Example - 变量</title>
+      <link>http://imogu.us/2015/02/gobyexample-variables/</link>
+      <pubDate>Fri, 20 Feb 2015 01:17:55 CST</pubDate>
+      
+      <guid>http://imogu.us/2015/02/gobyexample-variables/</guid>
+      <description>&lt;p&gt;在Go中，变量需要显示声明给编译器，因此并非解释性语言，而是如C/C++一样属于强类型语言。&lt;/p&gt;
+
+&lt;p&gt;如下面的例子：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+	var a = &amp;quot;literal&amp;quot;
+	fmt.Println(a)
+
+	var b, c = 1, 2
+	fmt.Println(b, c)
+
+	var d = true
+	fmt.Println(d)
+
+	var e int
+	fmt.Println(e)
+
+	f := &amp;quot;short&amp;quot;
+	fmt.Println(f)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;通过var显示的声明变量如：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var a ＝ &amp;quot;literal&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;也可以同时定义多个变量，Go会根据变量的初始值为变量定义类型。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var b, c = 1, 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;未初始化的变量会被初始化为0值，例如int型的0值是0.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var e int
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;也可以通过:=这个简化版本来声明和初始化变量&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;f := &amp;quot;short&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;输出如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go run variables.go
+literal
+1 2
+true
+0
+short
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下节例子： [常量] [1]&lt;/p&gt;
+
+&lt;p&gt;[1]:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go by Example － 值</title>
+      <link>http://imogu.us/2015/02/gobyexample-values/</link>
+      <pubDate>Fri, 20 Feb 2015 00:59:19 CST</pubDate>
+      
+      <guid>http://imogu.us/2015/02/gobyexample-values/</guid>
+      <description>&lt;p&gt;Go语言中的值有各种类型，如strings，intergers，floats，booleans等，下面是一些简单的例子：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+    fmt.Println(&amp;quot;go&amp;quot; + &amp;quot;lang&amp;quot;)
+    fmt.Println(&amp;quot;1+1=&amp;quot;, 1+1)
+    fmt.Println(&amp;quot;7.0/3.0=&amp;quot;, 7.0/3.0)
+    fmt.Println(true &amp;amp;&amp;amp; false)
+    fmt.Println(true || false)
+    fmt.Println(!true)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Strings 可以通过＋来拼接。
+Intergers，floats，booleans等都和我们之前所学的语言类似。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go run values.go 
+golang
+1+1= 2
+7.0/3.0= 2.3333333333333335
+false
+true
+false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下节例子： [变量] [1]&lt;/p&gt;
+
+&lt;p&gt;[1]:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go by Example - Hello World</title>
+      <link>http://imogu.us/2015/02/gobyexample-helloworld/</link>
+      <pubDate>Fri, 20 Feb 2015 00:34:06 CST</pubDate>
+      
+      <guid>http://imogu.us/2015/02/gobyexample-helloworld/</guid>
+      <description>&lt;p&gt;我们的第一个Go程序将打印出经典的“hello world”，下面是完整的代码：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;package main
+
+import &amp;quot;fmt&amp;quot;
+
+func main() {
+        fmt.Println(&amp;quot;Hello, World&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;我们将代码保存在hello-world.go中，可以通过go run来直接运行：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;go run hello-world.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;或者我们可以先将它编译成二进制的可执行程序：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;go build hello-world.go
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;接着可以直接运行它：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;   $ ./hello-world 
+   Hello, World
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;现在我们可以编译和运行基本的Go程序了，下面让我们了解更多Go的知识咯.&lt;/p&gt;
+
+&lt;p&gt;下节例子: [值] [1]&lt;/p&gt;
+
+&lt;p&gt;[1]:&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Setup Hugo on Github How to</title>
