@@ -154,7 +154,7 @@ func main() {
 &lt;p&gt;Strings 可以通过＋来拼接。
 Intergers，floats，booleans等都和我们之前所学的语言类似。&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;$ go run values.go 
+&lt;pre&gt;&lt;code&gt;$ go run values.go
 golang
 1+1= 2
 7.0/3.0= 2.3333333333333335
@@ -198,7 +198,7 @@ func main() {
 
 &lt;p&gt;接着可以直接运行它：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;   $ ./hello-world 
+&lt;pre&gt;&lt;code&gt;   $ ./hello-world
    Hello, World
 &lt;/code&gt;&lt;/pre&gt;
 
