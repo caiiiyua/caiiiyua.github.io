@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on 哎，蘑菇</title>
-    <link>http://localhost:1313/categories/development/</link>
+    <link>http://imogu.us/categories/development/</link>
     <description>Recent content in Development on 哎，蘑菇</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -10,14 +10,14 @@
     
     <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
     <lastBuildDate>Fri, 20 Feb 2015 01:38:38 CST</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://imogu.us/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Go by Example - 常量</title>
-      <link>http://localhost:1313/2015/02/gobyexample-constants/</link>
+      <link>http://imogu.us/2015/02/gobyexample-constants/</link>
       <pubDate>Fri, 20 Feb 2015 01:38:38 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/gobyexample-constants/</guid>
+      <guid>http://imogu.us/2015/02/gobyexample-constants/</guid>
       <description>&lt;p&gt;Go 支持的常量类型有字符型，string， boolean以及数字型。&lt;/p&gt;
 
 &lt;p&gt;在代码中通过关键字*const*来声明常量。
@@ -63,10 +63,10 @@ constant
     
     <item>
       <title>Go by Example - 变量</title>
-      <link>http://localhost:1313/2015/02/gobyexample-variables/</link>
+      <link>http://imogu.us/2015/02/gobyexample-variables/</link>
       <pubDate>Fri, 20 Feb 2015 01:17:55 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/gobyexample-variables/</guid>
+      <guid>http://imogu.us/2015/02/gobyexample-variables/</guid>
       <description>&lt;p&gt;在Go中，变量需要显示声明给编译器，因此并非解释性语言，而是如C/C++一样属于强类型语言。&lt;/p&gt;
 
 &lt;p&gt;如下面的例子：&lt;/p&gt;
@@ -131,10 +131,10 @@ short
     
     <item>
       <title>Go by Example － 值</title>
-      <link>http://localhost:1313/2015/02/gobyexample-values/</link>
+      <link>http://imogu.us/2015/02/gobyexample-values/</link>
       <pubDate>Fri, 20 Feb 2015 00:59:19 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/gobyexample-values/</guid>
+      <guid>http://imogu.us/2015/02/gobyexample-values/</guid>
       <description>&lt;p&gt;Go语言中的值有各种类型，如strings，intergers，floats，booleans等，下面是一些简单的例子：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;package main
@@ -171,10 +171,10 @@ false
     
     <item>
       <title>Go by Example - Hello World</title>
-      <link>http://localhost:1313/2015/02/gobyexample-helloworld/</link>
+      <link>http://imogu.us/2015/02/gobyexample-helloworld/</link>
       <pubDate>Fri, 20 Feb 2015 00:34:06 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/gobyexample-helloworld/</guid>
+      <guid>http://imogu.us/2015/02/gobyexample-helloworld/</guid>
       <description>&lt;p&gt;我们的第一个Go程序将打印出经典的“hello world”，下面是完整的代码：&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;package main
@@ -212,10 +212,10 @@ func main() {
     
     <item>
       <title>Setup Hugo on Github How to</title>
-      <link>http://localhost:1313/2015/02/how-to-setup-hugo-github/</link>
+      <link>http://imogu.us/2015/02/how-to-setup-hugo-github/</link>
       <pubDate>Wed, 18 Feb 2015 00:38:59 CST</pubDate>
       
-      <guid>http://localhost:1313/2015/02/how-to-setup-hugo-github/</guid>
+      <guid>http://imogu.us/2015/02/how-to-setup-hugo-github/</guid>
       <description>
 
 &lt;p&gt;Hugo是一个轻量级的静态网站生成系统，可以帮助你很迅速的生成一个简单的博客网站，当然如果你有心，还可以让他更强大，下面就来简单记录下在Github上建立Hugo站的方法。&lt;/p&gt;
