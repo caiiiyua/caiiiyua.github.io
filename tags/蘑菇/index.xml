@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>蘑菇 on 哎，蘑菇</title>
+    <link>http://localhost:1313/tags/%E8%98%91%E8%8F%87/</link>
+    <description>Recent content in 蘑菇 on 哎，蘑菇</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    
+    
+    <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 27 Mar 2015 11:40:37 CST</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%98%91%E8%8F%87/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>redang</title>
+      <link>http://localhost:1313/2015/03/redang/</link>
+      <pubDate>Fri, 27 Mar 2015 11:40:37 CST</pubDate>
+      
+      <guid>http://localhost:1313/2015/03/redang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

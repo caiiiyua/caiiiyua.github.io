@@ -2,43 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://imogu.us/</loc>
-    <lastmod>2015-02-22T23:08:46+08:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2015-03-27T11:40:37+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/lucy/</loc>
+    <loc>http://localhost:1313/2015/03/redang/</loc>
+    <lastmod>2015-03-27T11:40:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/2015/02/lucy/</loc>
     <lastmod>2015-02-22T23:08:46+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/gobyexample-constants/</loc>
+    <loc>http://localhost:1313/2015/02/gobyexample-constants/</loc>
     <lastmod>2015-02-20T01:38:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/gobyexample-variables/</loc>
+    <loc>http://localhost:1313/2015/02/gobyexample-variables/</loc>
     <lastmod>2015-02-20T01:17:55+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/gobyexample-values/</loc>
+    <loc>http://localhost:1313/2015/02/gobyexample-values/</loc>
     <lastmod>2015-02-20T00:59:19+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/gobyexample-helloworld/</loc>
+    <loc>http://localhost:1313/2015/02/gobyexample-helloworld/</loc>
     <lastmod>2015-02-20T00:34:06+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/2015/02/how-to-setup-hugo-github/</loc>
+    <loc>http://localhost:1313/2015/02/how-to-setup-hugo-github/</loc>
     <lastmod>2015-02-18T00:38:59+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://imogu.us/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2015-02-18T00:36:23+08:00</lastmod>
   </url>
   

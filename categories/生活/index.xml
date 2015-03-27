@@ -2,22 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on 哎，蘑菇</title>
-    <link>http://imogu.us/categories/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on 哎，蘑菇</description>
     <generator>Hugo -- gohugo.io</generator>
     
     
     
     <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 Feb 2015 23:08:46 CST</lastBuildDate>
-    <atom:link href="http://imogu.us/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2015 11:40:37 CST</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>redang</title>
+      <link>http://localhost:1313/2015/03/redang/</link>
+      <pubDate>Fri, 27 Mar 2015 11:40:37 CST</pubDate>
+      
+      <guid>http://localhost:1313/2015/03/redang/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;行程 2016-4-15 ~ 2016-4-23, 15日晚出发，22日回程，实际时间7天7夜
+
+&lt;ul&gt;
+&lt;li&gt;day 0: 23:55-04:30 成都至吉隆坡 288+114&lt;/li&gt;
+&lt;li&gt;day 1:
+
+&lt;ul&gt;
+&lt;li&gt;(11:50-12:45这个时间不合理) 07:00-07:50 吉隆坡至登嘉楼 120+120&lt;/li&gt;
+&lt;li&gt;9:00-12:30 登岛&lt;/li&gt;
+&lt;li&gt;12:30-13:00 入住酒店&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;day 2: 热浪岛一日玩&lt;/li&gt;
+&lt;li&gt;day 3: 热浪岛一日玩&lt;/li&gt;
+&lt;li&gt;day 4: 热浪岛去普吉
+
+&lt;ul&gt;
+&lt;li&gt;10:30-11:45 离岛，至登嘉楼&lt;/li&gt;
+&lt;li&gt;13:10-14:04 登嘉楼至吉隆坡 120+120&lt;/li&gt;
+&lt;li&gt;16:15-16:35 吉隆坡至普吉59+59&lt;/li&gt;
+&lt;li&gt;17:00-18:00 住卡塔海滩&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;day 5: 普吉岛游玩&lt;/li&gt;
+&lt;li&gt;day 6: 普吉岛游玩&lt;/li&gt;
+&lt;li&gt;day 7: 普吉回成都
+
+&lt;ul&gt;
+&lt;li&gt;13:35-16:00 普吉至吉隆坡&lt;/li&gt;
+&lt;li&gt;18:15-22:40 吉隆坡至成都 372+372&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello Lucy !</title>
-      <link>http://imogu.us/2015/02/lucy/</link>
+      <link>http://localhost:1313/2015/02/lucy/</link>
       <pubDate>Sun, 22 Feb 2015 23:08:46 CST</pubDate>
       
-      <guid>http://imogu.us/2015/02/lucy/</guid>
+      <guid>http://localhost:1313/2015/02/lucy/</guid>
       <description>&lt;p&gt;和无数的人一样，我也曾对这个世界充满幻想，并通过科幻小说和电影等方式来满足好奇心和饱足感，但对于知识
 的匮乏也使得无数人慢慢忘却，丢掉了那份好奇，不知从何时起，似乎科幻小说和科幻电影都变成所谓“秀智商”
 的工具，网络媒体上也到处充满了对某小说或电影的关于“看懂”的争论。

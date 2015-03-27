@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>O2o on 哎，蘑菇</title>
+    <link>http://localhost:1313/categories/o2o/</link>
+    <description>Recent content in O2o on 哎，蘑菇</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    
+    
+    <copyright>Copyright (c) 2008 - 2014, nehe; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 04 Mar 2015 15:49:25 CST</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/o2o/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>notes</title>
+      <link>http://localhost:1313/content/notes/</link>
+      <pubDate>Wed, 04 Mar 2015 15:49:25 CST</pubDate>
+      
+      <guid>http://localhost:1313/content/notes/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;高峰期为5月至8月，液态酸奶预计最受欢迎，4月份实验预制果味液态酸奶并小规模试卖，5月正式上市&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;促销活动&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;活动海报线下分发及张贴，重点在增加微信会员数量，将更多微信会员转为订购或充值会员&lt;/li&gt;
+&lt;li&gt;加微信并注册牛牛家账号，可获得个人专属QR码，扫码可获得10元抵用券？奶瓶套餐（原味酸奶+果味酸奶）？&lt;/li&gt;
+&lt;li&gt;通过微信充值或购买定奶套餐享受额外优惠&lt;/li&gt;
+&lt;li&gt;微信会员专属权利
+
+&lt;ul&gt;
+&lt;li&gt;零售扫码打折，85-9折&lt;/li&gt;
+&lt;li&gt;牛牛家大家庭通享折扣（所有牛牛家店铺均可享受会员价或取奶）&lt;/li&gt;
+&lt;li&gt;新功能上线优先享（如配送，收奶瓶等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;微信转发会员邀请，送抵用券 or 产品？&lt;/li&gt;
+&lt;li&gt;微信会员邀请送牛牛币（积分，可兑换现金余额或直接兑换商品）&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;上线会员系统，可通过微信在线注册会员或绑定会员，可实时查看账户变更（现金余额，商品余额，充值记录，消费记录等）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在线会员支付系统，微信支付？扫码支付？，实现在线充值或在线购买&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;积分或成就系统，通过虚拟货币或成就方式，引导微信会员增加对牛奶习惯的接受度，通过达成任务获取奖励方式逐渐转为订购会员&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;消费送积分及成就&lt;/li&gt;
+&lt;li&gt;完成微信会员中任务送积分及成就&lt;/li&gt;
+&lt;li&gt;邀请新会员送积分及成就&lt;/li&gt;
+&lt;li&gt;连续消费送更多积分及成就&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;会员社区系统，提供会员在线社区功能，可发布吐槽，需求，灌水，会员通知，商品review等&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;社区配送模式&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通过问卷调查收集会员意愿，完成调查送积分获奖励&lt;/li&gt;
+&lt;li&gt;分析调查结果，邀请部分会员试用
+
+&lt;ul&gt;
+&lt;li&gt;选取相对集中会员尝试集中配送 - 如易速递到大门口&lt;/li&gt;
+&lt;li&gt;其他常识门口配送 - 在会员家门口挂免费奶箱&lt;/li&gt;
+&lt;li&gt;其他方式？&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;邀请其他店铺共同配送&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;邀请其他店铺共享系统及会员系统，实现牛牛家会员统一注册，查询，消费&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;移动优先，Web体验可后置&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;鲜奶吧O2O - Web&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会员 ／ 客户界面
+
+&lt;ul&gt;
+&lt;li&gt;注册 x&lt;/li&gt;
+&lt;li&gt;绑定现有账户（数据迁移至新系统）x&lt;/li&gt;
+&lt;li&gt;现金账户 x&lt;/li&gt;
+&lt;li&gt;商品账户 x&lt;/li&gt;
+&lt;li&gt;积分账户&lt;/li&gt;
+&lt;li&gt;充值记录 x&lt;/li&gt;
+&lt;li&gt;消费记录 x&lt;/li&gt;
+&lt;li&gt;会员信息 x&lt;/li&gt;
+&lt;li&gt;支付和订购 x&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;商品 ／ 客户界面
+
+&lt;ul&gt;
+&lt;li&gt;SNO x&lt;/li&gt;
+&lt;li&gt;简介 x&lt;/li&gt;
+&lt;li&gt;详情 x&lt;/li&gt;
+&lt;li&gt;库存 x&lt;/li&gt;
+&lt;li&gt;评价 x&lt;/li&gt;
+&lt;li&gt;购买 x&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;零售(off line entry) / 员工界面
+
+&lt;ul&gt;
+&lt;li&gt;销售 x&lt;/li&gt;
+&lt;li&gt;退货 x&lt;/li&gt;
+&lt;li&gt;库存 x&lt;/li&gt;
+&lt;li&gt;扫码支付／消费 x&lt;/li&gt;
+&lt;li&gt;商品／耗材入库 x&lt;/li&gt;
+&lt;li&gt;耗材登记／消耗 x&lt;/li&gt;
+&lt;li&gt;销售员登入／考勤记录 x&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;后台管理 ／ 管理员界面
+
+&lt;ul&gt;
+&lt;li&gt;订单创建／删除／修改 x&lt;/li&gt;
+&lt;li&gt;配送单创建／删除／修改&lt;/li&gt;
+&lt;li&gt;产品创建／删除／修改 x&lt;/li&gt;
+&lt;li&gt;耗材创建／删除／修改 x&lt;/li&gt;
+&lt;li&gt;会员创建／删除／修改 x&lt;/li&gt;
+&lt;li&gt;账户（现金／商品／积分）修改 x&lt;/li&gt;
+&lt;li&gt;员工创建／删除／修改 x&lt;/li&gt;
+&lt;li&gt;控制台（统计数据，报表等）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;配送 ／ 客户及管理员界面
+
+&lt;ul&gt;
+&lt;li&gt;配送订单&lt;/li&gt;
+&lt;li&gt;配送状态&lt;/li&gt;
+&lt;li&gt;配送统计&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;鲜奶吧O2O - 微信公众号&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;会员
+
+&lt;ul&gt;
+&lt;li&gt;充值&lt;/li&gt;
+&lt;li&gt;订购套餐（次卡，月卡，季卡，年卡？）&lt;/li&gt;
+&lt;li&gt;账户余额查询&lt;/li&gt;
+&lt;li&gt;充值记录&lt;/li&gt;
+&lt;li&gt;消费记录&lt;/li&gt;
+&lt;li&gt;产品评价&lt;/li&gt;
+&lt;li&gt;购买&lt;/li&gt;
+&lt;li&gt;小游戏？&lt;/li&gt;
+&lt;li&gt;会员专属活动&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;促销活动／广告宣传／科普 - 推送消息&lt;/li&gt;
+&lt;li&gt;购买&lt;/li&gt;
+&lt;li&gt;微信支付／扫码支付&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;盈利模式&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;店铺
+
+&lt;ol&gt;
+&lt;li&gt;通过微信增加会员及零售量&lt;/li&gt;
+&lt;li&gt;订奶会员增加&lt;/li&gt;
+&lt;li&gt;耗材等更加统一管理后降低成本（牛奶，耗材等成本）&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;鲜奶吧平台
+
+&lt;ol&gt;
+&lt;li&gt;免费入驻，收费认证（建立一套技术指标认证符合标准的优质鲜奶吧）&lt;/li&gt;
+&lt;li&gt;系统培训及技术问题解决和指导&lt;/li&gt;
+&lt;li&gt;订单抽成，如每瓶牛奶或每单 5%～10%&lt;/li&gt;
+&lt;li&gt;配送抽成，如每单0.5~1元&lt;/li&gt;
+&lt;li&gt;广告收入
+
+&lt;ul&gt;
+&lt;li&gt;奶箱或小区集中取奶箱上嵌入广告&lt;/li&gt;
+&lt;li&gt;根据用户购买习惯精确投放广告&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Roadmap&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;O2O接入&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;单店系统beta
+
+&lt;ol&gt;
+&lt;li&gt;微信会员
+
+&lt;ol&gt;
+&lt;li&gt;账户余额查询&lt;/li&gt;
+&lt;li&gt;消费记录查询&lt;/li&gt;
+&lt;li&gt;充值记录查询&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;注册／绑定会员&lt;/li&gt;
+&lt;li&gt;库存系统&lt;/li&gt;
+&lt;li&gt;零售系统&lt;/li&gt;
+&lt;li&gt;统计&lt;/li&gt;
+&lt;li&gt;数据管理&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;单店系统
+
+&lt;ol&gt;
+&lt;li&gt;微信会员
+
+&lt;ol&gt;
+&lt;li&gt;充值&lt;/li&gt;
+&lt;li&gt;支付&lt;/li&gt;
+&lt;li&gt;购买&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;充值，支付，积分&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;多店系统
+
+&lt;ol&gt;
+&lt;li&gt;统一会员数据&lt;/li&gt;
+&lt;li&gt;云端零售&lt;/li&gt;
+&lt;li&gt;共享库存信息&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;配送和社区
+
+&lt;ol&gt;
+&lt;li&gt;配送系统&lt;/li&gt;
+&lt;li&gt;社区系统&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;平台化&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;鲜奶吧认证规范或技术要求&lt;/li&gt;
+&lt;li&gt;奶源管理规范或技术要求&lt;/li&gt;
+&lt;li&gt;生鲜奶配送链规范或技术要求&lt;/li&gt;
+&lt;li&gt;社区配送规范或技术要求&lt;/li&gt;
+&lt;li&gt;社区优质资源挖掘和共享&lt;/li&gt;
+&lt;li&gt;牛奶食品健康安全检查，牛奶质量可追溯&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
